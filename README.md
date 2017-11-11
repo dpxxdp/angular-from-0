@@ -65,8 +65,9 @@ brew install yarn
 ```
 
 ### 6. Install Angular CLI
-
+```bash
 yarn global add @angular/cli
+```
 
 ### 7. Create a new coding directory
 
@@ -147,7 +148,9 @@ Create a file called .functions
 ```bash
 touch .functions
 ```
-Open up that file in some text editor (you could open it in VS Code now) and add this to the file:
+Open up that file in some text editor, you could open it in VS Code now (in VS Code go to File -> Open, etc, it should be visible under your user's home directory).  
+
+Add the following to that file, and then save and close it.
 
 ```bash
 # open vs code
@@ -155,8 +158,10 @@ code () {
     VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $*
 }
 ```
-Save that file and close it. Close all open instances of VS Code. Restart Terminal. 
-From now on you can use the keyword "code <some-filename-or-directory>" to open up that file or directory in VS Code.
+Once you save it and close it, close all open instances of VS Code. Restart Terminal.
+
+From now on you can use the command "code" to open up a file or directory in VS Code.
+
 For example cd to your angular app:
 ```
 cd ~
@@ -164,9 +169,11 @@ cd coding
 code honeybadger
 ```
 That should open the honeybadger app with VS Code!
-#### END SIDE NOTE
+#### 11. END SIDE NOTE
 
-#### Once your app is open, Navigate to app.component.html (in VS Code to open something, use CMD+P and start typing: appcomp...)
+### Experiment with your new app
+
+Once your app is open, Navigate to app.component.html (in VS Code to open something, use CMD+P and start typing: appcomp...)
 Change something in that html file.  Keep localhost:4200 open in Chrome.  See your changes!
 * This file is html, so look up any tutorial on html and begin playing around with that code there.
 * To get more advanced, open up app.component.ts.  This is Typescript, feel free to begin playing around with that.
