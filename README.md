@@ -1,6 +1,6 @@
 # angular-from-0
 
-all commands in here are run from your Terminal:
+all commands in here are run from your Terminal.  Each number has a footnote below.
 
 ### 1. Make your hidden files visible
 Run:
@@ -178,6 +178,8 @@ Change something in that html file.  Keep localhost:4200 open in Chrome.  See yo
 * This file is html, so look up any tutorial on html and begin playing around with that code there.
 * To get more advanced, open up app.component.ts.  This is Typescript, feel free to begin playing around with that.
 * If you reach this far, let me know... there is plenty to do from here.
+
+# Footnotes
 
 [0] Open up a Finder window, and you'll notice a ton of new "hidden files" that you've never seen before.  These are useful because when you're coding, you'll want to be able to edit these.  If these ever get annoying, you can turn it off with this: defaults write com.apple.finder AppleShowAllFiles NO
 
