@@ -45,7 +45,7 @@ It becomes clear, then, why Microsoft invented Typescript: (1) it's strongly typ
 
 Before doing anything else, `cd` into the directory where your app is and run:
 
-``bash
+```bash
 git init
 git add -A
 git commit -m "initial commit"
